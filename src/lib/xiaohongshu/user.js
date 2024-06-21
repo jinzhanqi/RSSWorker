@@ -31,7 +31,7 @@ let deal = async (ctx) => {
 	// const category = ctx.params.category;
 	const { uid } = ctx.req.param();
 	const category = 'notes';
-	const url = `https://www.xiaohongshu.com/user/profile/${uid}`;
+	const url = `https://www.xiaohongshu.com/user/profile/63fcb5d1000000001400c82d`;
 
 	const {
 		userPageData: { basicInfo, interactions, tags },
